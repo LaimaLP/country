@@ -1,0 +1,27 @@
+.regionContainer{
+    background-color: rgb(133, 138, 138);
+ 
+}
+
+
+.region{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   align-items: center;
+    justify-content:first baseline;
+    margin: 0;
+  
+}
+h1{
+    text-align: center;
+    /* background-color: rgb(74, 73, 72); */
+    padding: 10px;
+    color: aliceblue;
+}
+
+.listContainer{
+   
+    background-color: aqua;
+}
