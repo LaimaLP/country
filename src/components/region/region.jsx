@@ -1,5 +1,5 @@
-import { Country } from "../country/country"
-import style from "./region.module.css"
+import { Country } from "../country/Country"
+import style from "./Region.module.css"
 
 
 

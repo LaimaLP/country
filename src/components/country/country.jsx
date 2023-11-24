@@ -1,4 +1,4 @@
-import style from "./country.module.css"
+import style from "./Country.module.css"
 
 export function Country({name, flag, capital, startOfWeek, populiation}) {
     return (
