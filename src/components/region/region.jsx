@@ -1,11 +1,8 @@
 import { Country } from "../country/Country"
 import style from "./Region.module.css"
-import { SearchInput } from "./SearchInput";
 
 
-
-
-export function Region({ title, countries, inputName }) {
+export function Region({ title, countries}) {
 
     return (
         <div className={style.regionContainer}>

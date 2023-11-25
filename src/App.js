@@ -23,11 +23,12 @@ function App() {
   let regionList = ["Klaida. Nepavyko pasiimti duomenų"];
 
   if (!isError) {
-    for (const country of data) {
-      if (!regions.includes(country.region)) {
-        regions.push(country.region);
+    for (const item of data) {
+      if (!regions.includes(item.region)) {
+        regions.push(item.region);
       }
     }
+
     regionList = regions.map((region, idx) => (
       <Region
         key={idx}
