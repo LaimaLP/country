@@ -9,7 +9,7 @@ function App() {
   const [isError, setIsError] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3000/data/all.json")
+    fetch('https://restcountries.com/v3.1/all')
       .then((res) => res.json())
       .then((resData) => {
         setData(resData)
