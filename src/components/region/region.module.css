@@ -25,3 +25,13 @@ h1{
    
     background-color: aqua;
 }
+.inputContainer{
+   padding: 20px;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+.inputContainer input{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border-radius: 10px;
+}
